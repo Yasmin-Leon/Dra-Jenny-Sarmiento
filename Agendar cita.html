@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agendar cita</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Agendar cita</h1>
+        <nav>
+            <ul>
+                <li><a href="index-inicio.html">Inicio</a></li>
+                <li><a href="sobre mí.html">Sobre mí</a></li>
+                <li><a href="consultorio.html">Consultorio</a></li>
+                <li><a href="tratamientos.html">Tratamientos</a></li>
+                <li><a href="Agendar cita.html">Agendar cita</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <section class="agendar-cita">
+
+            <div class="container">
+                <h2>Agenda tu Cita</h2>
+                <p>Completa el siguiente formulario para agendar tu cita con la Dra. Jenny Sarmiento.</p>
+                
+                <form action="formulario datos.php" method="POST">
+                    
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+        
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+        
+                        <label for="mensaje">Motivo de la consulta</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        
+                    <button type="submit" class="button">Agendar Cita</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>2025 Dra. Jenny Sarmiento | Clínica Stemwell Health</p>
+        </footer>
+    </body>
+</html>
