@@ -55,7 +55,7 @@ h1, h2, h3 {
     font-weight: bold;
 }
 /* Botones */
-.button {
+.inicio button {
     display: inline-block;
     background-color: #237286;
     color: white;
@@ -65,7 +65,7 @@ h1, h2, h3 {
     margin: 20px;
 }
 
-.button:hover {
+.inicio button:hover {
     background-color: #3aaf9a;
 }
 /* Sección Sobre Mí */
