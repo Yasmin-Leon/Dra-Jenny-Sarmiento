@@ -24,7 +24,19 @@ h1, h2, h3 {
     margin: 0 auto;
     padding: 20px;
 }
+/* Botones */
+.button {
+    display: inline-block;
+    background-color: #237286;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
+.button:hover {
+    background-color: #3aaf9a;
+}
 /* Estilos del header */
 .barra {
     display: flex;
@@ -146,19 +158,6 @@ h1, h2, h3 {
     background-color: #237286;
 }
 
-/* Botones */
-.button {
-    display: inline-block;
-    background-color: #237286;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #3aaf9a;
-}
 
 /* Footer */
 footer {
