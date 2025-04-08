@@ -24,7 +24,21 @@ h1, h2, h3 {
     margin: 0 auto;
     padding: 20px;
 }
-
+nav{
+    margin: 20px 0;
+    }
+nav a{
+    text-decoration: none;
+    color: rgb(209, 228, 124);
+     background-color: #7865ce;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    }
+nav a:hover{
+    background-color: #400d7a;
+    }
 /* Estilos del header */
 .barra {
     display: flex;
@@ -32,8 +46,6 @@ h1, h2, h3 {
     justify-content: space-between;
     background-color: #d4d4d4;
     padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
 }
 .logo {
     width: 100px;
@@ -53,7 +65,7 @@ h1, h2, h3 {
 
 .menu a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 /* Sección Sobre Mí */
