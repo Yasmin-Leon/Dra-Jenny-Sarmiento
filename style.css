@@ -37,8 +37,8 @@ nav a{
     display: inline-block;
     }
 nav a:hover{
-    background-color: #237286;
-    color: #ffffff
+    background-color:  #ffffff;
+    color:  #237286;
     }
 /* Estilos del header */
 .barra {
