@@ -25,13 +25,14 @@ h1, h2, h3 {
     padding: 20px;
 }
 /* Botones */
-.button {
+.btn {
     display: inline-block;
     background-color: #237286;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 15px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
+    margin: 20px;
 }
 
 .button:hover {
