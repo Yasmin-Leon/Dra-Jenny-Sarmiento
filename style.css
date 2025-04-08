@@ -29,15 +29,15 @@ nav{
     }
 nav a{
     text-decoration: none;
-    color: rgb(209, 228, 124);
-     background-color: #7865ce;
-    padding: 10px 20px;
+    color: #237286;
+     background-color: #ffffff;
+    padding: 5px 15px;
     margin: 5px;
     border-radius: 5px;
     display: inline-block;
     }
 nav a:hover{
-    background-color: #400d7a;
+    background-color: #3aaf9a;
     }
 /* Estilos del header */
 .barra {
