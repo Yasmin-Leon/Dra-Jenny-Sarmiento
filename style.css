@@ -59,15 +59,17 @@ nav a:hover{
     background-color: #d4d4d4;
     padding: 10px 20px;
     z-index: 1000;
-    margin-top: 0;
+    margin: 0 auto;
 }
 .logo {
-    max-width: 100%;
+    width: 90px;
+    height: auto;
     margin-right: 20px;
 
 }
 .menu {
     display: flex;
+    gap: 10px;
     justify-content: space-around;
     list-style: none;
     padding: 0;
@@ -81,6 +83,7 @@ nav a:hover{
 .menu a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 16px;
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
