@@ -27,7 +27,7 @@ h1, h2, h3 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 30px;
+    padding: 40px 20px;
     box-sizing: border-box;
 }
 nav{
@@ -46,6 +46,36 @@ nav a:hover{
     background-color:  #ffffff;
     color:  #237286;
     }
+/* MEDIA QUERIES para móviles */
+@media (max-width: 768px) {
+    .barra {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        justify-content: flex-start;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .menu a {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 30px 15px;
+    }
+}
 /* Estilos del header */
 .barra {
     display: flex;
@@ -57,7 +87,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     background-color: #d4d4d4;
-    padding: 10px 30px;
+    padding: 10px 20px;
     z-index: 1000;
     box-sizing: border-box;
 }
@@ -65,6 +95,7 @@ nav a:hover{
     width: 70px;
     height: auto;
     flex-shrink: 0;
+    margin-right: 10px;
 
 }
 .menu {
@@ -75,7 +106,6 @@ nav a:hover{
     list-style: none;
     padding: 0;
     margin: 0;
-    flex: 1;
 }
 
 .menu li {
@@ -87,10 +117,9 @@ nav a:hover{
     color: #ffffff;
     font-size: 14px;
     font-weight: bold;
-    padding: 8px 12px;
+    padding: 6px 12px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    background-color: transparent;
 }
 /* Sección Sobre Mí */
 .sobre-mi {
