@@ -10,7 +10,6 @@ body {
     font-family: 'Bahnschrift', sans-serif;
     margin: 0;
     padding: 0;
-    padding-top: 90px;
     background-color: #237286;
     color: #000;
     scroll-behavior: smooth;
@@ -92,7 +91,7 @@ nav a:hover{
     z-index: 1000;
     box-sizing: border-box;
 }
-.logo {
+.logo img {
     width: 60px;
     height: auto;
 }
