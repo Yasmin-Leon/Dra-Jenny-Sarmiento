@@ -51,6 +51,7 @@ nav a:hover{
     position: fixed;
     flex-wrap: wrap;
     padding: 0;
+    margin-top: 0;
 }
 .logo {
     width: 100px;
