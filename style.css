@@ -50,7 +50,7 @@ nav a:hover{
     background-color: #d4d4d4;
     position: fixed;
     flex-wrap: wrap;
-    padding: 10px 15px;
+    padding: 0;
 }
 .logo {
     width: 100px;
