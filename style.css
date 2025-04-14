@@ -44,6 +44,7 @@ nav a:hover{
 .barra {
     display: flex;
     position: fixed;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     background-color: #d4d4d4;
