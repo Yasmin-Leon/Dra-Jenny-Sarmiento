@@ -43,10 +43,13 @@ nav a:hover{
 /* Estilos del header */
 .barra {
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
     background-color: #d4d4d4;
-    padding: 10px 20px;
+    position: fixed;
+    flex-wrap: wrap;
+    padding: 10px 15px;
 }
 .logo {
     width: 100px;
