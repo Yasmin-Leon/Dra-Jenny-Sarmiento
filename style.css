@@ -27,6 +27,7 @@ h1, h2, h3 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 30px;
+    padding-top: 120px;
     box-sizing: border-box;
 }
 nav{
@@ -53,6 +54,7 @@ nav a:hover{
 
     .container {
         padding: 30px 15px;
+        padding-top: 120px;
     }
     .barra {
         flex-direction: column;
@@ -61,6 +63,7 @@ nav a:hover{
     }
 
     .logo {
+        width: 50px;
         margin-bottom: 10px;
     }
 
@@ -75,20 +78,10 @@ nav a:hover{
         font-size: 16px;
         padding: 10px 15px;
     }
-
-    body {
-        font-size: 16px;
-    }
-
-    .container {
-        padding: 30px 15px;
-    }
-}
 /* Estilos del header */
 .barra {
     display: flex;
     position: fixed;
-    flex-wrap: nowwrap;
     top: 0;
     left: 0;
     width: 100%;
@@ -100,15 +93,13 @@ nav a:hover{
     box-sizing: border-box;
 }
 .logo {
-    width: 100%;
+    width: 60px;
     height: auto;
-    flex-shrink: 0;
 }
 .menu {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: flex-end;
     list-style: none;
     padding: 0;
     margin: 0;
