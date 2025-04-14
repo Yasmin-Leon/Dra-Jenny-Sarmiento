@@ -51,7 +51,6 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     background-color: #d4d4d4;
-    flex-wrap: wrap;
     padding: 10px 20px;
     z-index: 1000;
     margin-top: 0;
