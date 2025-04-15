@@ -27,7 +27,7 @@ h1, h2, h3 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 30px;
+    padding: 15px 25px;
     box-sizing: border-box;
 }
 nav{
@@ -37,7 +37,7 @@ nav a{
     text-decoration: none;
     color:  #ffffff;
     background-color:  #237286;
-    padding: 10px 20px;
+    padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
     display: inline-block;
