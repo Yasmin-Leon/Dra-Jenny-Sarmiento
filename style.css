@@ -92,7 +92,7 @@ nav a:hover{
     transition: background-color 0.3s ease;
 }
 
-/* Redes sociales */
+/* estilo de redes sociales */
 .redes-sociales {
   position: absolute;
   right: 20px;
@@ -106,7 +106,7 @@ nav a:hover{
 .icono {
   width: 35px;
   height: 35px;
-  border-radius: 50%;
+  border-radius: 15px;
   background-color: #ffffff;
   color: #000000;
   display: flex;
