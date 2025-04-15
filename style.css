@@ -31,18 +31,23 @@ h1, h2, h3 {
     box-sizing: border-box;
 }
 nav{
-    margin: 20px 0;
+    margin: 15px 0;
     }
-nav a{
+
+.boton-nav {
     text-decoration: none;
     color:  #ffffff;
     background-color:  #237286;
     padding: 10px 15px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
     display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    transition: background-color 0.3s ease;
     }
-nav a:hover{
+.boton-nav:hover{
     background-color:  #ffffff;
     color:  #237286;
     transform: scale(1.05);
@@ -68,6 +73,7 @@ nav a:hover{
     height: 60px;
     margin-right: 20px;
 }
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -80,16 +86,6 @@ nav a:hover{
 
 .menu li {
     margin: 0;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 15px 15px;
-    border-radius: 15px;
-    transition: background-color 0.3s ease;
 }
 
 /* estilo de redes sociales */
