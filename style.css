@@ -104,8 +104,8 @@ nav a:hover{
 }
 
 .icono {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border-radius: 15px;
   background-color: #ffffff;
   color: #000000;
@@ -113,7 +113,7 @@ nav a:hover{
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   transition: all 0.3s ease;
 }
