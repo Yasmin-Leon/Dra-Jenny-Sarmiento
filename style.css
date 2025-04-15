@@ -38,11 +38,11 @@ nav{
     text-decoration: none;
     color:  #ffffff;
     background-color:  #237286;
-    padding: 10px 15px;
+    padding: 15px 20px;
     margin: 5px;
-    border-radius: 8px;
+    border-radius: 10px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1;
     transition: background-color 0.3s ease;
