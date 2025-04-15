@@ -57,12 +57,12 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     background-color: #d4d4d4;
-    padding: 10px 30px;
+    padding: 10px 20px;
     z-index: 1000;
-    margin: 0 auto;
+    margin-top: 0;
 }
-.logo img {
-    width: 60px;
+.logo {
+    max-width: 100%;
     height: auto;
     margin-right: 20px;
 }
