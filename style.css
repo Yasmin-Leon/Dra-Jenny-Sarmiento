@@ -87,7 +87,7 @@ nav a:hover{
     font-size: 16px;
     font-weight: bold;
     padding: 20px 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: background-color 0.3s ease;
 }
 /* Sección Sobre Mí */
