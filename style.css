@@ -209,6 +209,34 @@ nav{
 .agendar-cita button:hover {
     background-color: #237286;
 }
+.contenido-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+    padding: 0 20px;
+}
+.texto-contacto {
+    flex: 1;
+    max-width: 35%;
+    text-align: left;
+}
+
+.texto-contacto h2 {
+    font-family: 'Megumi', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #237286;
+}
+
+.texto-contacto p {
+    font-size: 16px;
+    line-height: 1.6;
+}
 
 
 /* Footer */
