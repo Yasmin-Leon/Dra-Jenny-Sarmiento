@@ -177,68 +177,70 @@ nav{
     background-color: #ffffff;
 }
 
-.contenido-contacto {
+.contacto {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding: 40px 5%;
     flex-wrap: wrap;
-    max-width: 1200px;
-    margin: auto;
-    gap: 40px;
-    padding: 40px;
 }
 
 .texto-contacto {
-    flex: 1;
-    max-width: 35%;
-    text-align: left;
+    max-width: 400px;
+    font-family: 'Megumi', sans-serif;
 }
 
 .texto-contacto h2 {
-    font-family: 'Megumi', sans-serif;
     font-size: 28px;
     font-weight: bold;
+    font-style: italic;
     margin-bottom: 10px;
-    color: #237286;
 }
 
 .texto-contacto p {
     font-size: 16px;
     line-height: 1.6;
+    color: #0000;
 }
 
 .formulario-contacto {
-    max-width: 400px;
-    width: 100%;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0);
-    margin: auto;
+    max-width: 450px;
+    flex: 1;
 }
+
+.formulario-contacto h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #222;
+  font-family: 'Megumi', sans-serif;
+}
+
 .formulario-contacto form {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .formulario-contacto input, .formulario-contacto textarea {
-    width: 100%;
-    margin: 10px 0;
     padding: 10px;
-    border: 1px solid #b4b4b4;
+    border: none;
     border-radius: 10px;
     background-color: #ffffff;
+    font-size: 14px;
 }
-
+.formulario-contacto textarea {
+  resize: none;
+}
 .formulario-contacto button {
+    width: 120px;
+    align-self: center;
     background-color: #237286;
     color: white;
-    border: none;
+    border: 2px solid #00000;
     cursor: pointer;
     font-size: 16px;
     padding: 10px;
     border-radius: 15px;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .formulario-contacto button:hover {
