@@ -187,7 +187,7 @@ nav{
     align-items: flex-start;
     padding: 40px 5%;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 
 .texto-contacto {
@@ -211,7 +211,7 @@ nav{
 
 .formulario-contacto {
     max-width: 450px;
-    flex: 1;
+    flex:  0 1 450px;
 }
 
 .formulario-contacto h3 {
