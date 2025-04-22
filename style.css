@@ -238,23 +238,6 @@ nav{
   resize: none;
   height: 80px;
 }
-.formulario-contacto button {
-    width: 100px;
-    align-self: flex-start;
-    background-color: #237286;
-    color: #ffffff;
-    border: 2px solid;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 8px 0;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
-
-.formulario-contacto button:hover {
-    background-color: #237286;
-    color: #ffffff;
-}
 
 /* Footer */
 footer {
