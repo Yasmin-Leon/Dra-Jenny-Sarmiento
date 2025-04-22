@@ -12,10 +12,13 @@ body {
     padding: 0;
     padding-top: 80px;
     background-color: #237286;
-    color: #000;
+    color: #000000;
     scroll-behavior: smooth;
     font-size: 18px;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -175,6 +178,7 @@ nav{
 .agendar-cita {
     padding: 50px 0;
     background-color: #ffffff;
+    flex-grow: 1;
 }
 
 .contacto {
@@ -264,4 +268,5 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: 0;
+    z-index: 1000; 
 }
