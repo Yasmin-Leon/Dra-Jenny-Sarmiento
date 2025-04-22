@@ -183,6 +183,7 @@ nav{
     align-items: flex-start;
     padding: 40px 5%;
     flex-wrap: wrap;
+    gap: 40px;
 }
 
 .texto-contacto {
@@ -201,6 +202,7 @@ nav{
     font-size: 16px;
     line-height: 1.6;
     color: #0000;
+    margin-top: 10px;
 }
 
 .formulario-contacto {
@@ -210,7 +212,7 @@ nav{
 
 .formulario-contacto h3 {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #222;
   font-family: 'Megumi', sans-serif;
 }
@@ -223,28 +225,31 @@ nav{
 .formulario-contacto input, .formulario-contacto textarea {
     padding: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 0px;
+     border-bottom: 1px solid #d4d4d4;
     background-color: #ffffff;
     font-size: 14px;
 }
 .formulario-contacto textarea {
   resize: none;
+  height: 80px;
 }
 .formulario-contacto button {
-    width: 120px;
-    align-self: center;
+    width: 100px;
+    align-self: flex-start;
     background-color: #237286;
-    color: white;
+    color: ffffff;
     border: 2px solid #00000;
     cursor: pointer;
     font-size: 16px;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 8px 0;
+    border-radius: 10px;
     transition: all 0.3s ease;
 }
 
 .formulario-contacto button:hover {
     background-color: #237286;
+    color: fffff;
 }
 
 /* Footer */
