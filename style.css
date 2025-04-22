@@ -198,11 +198,13 @@ nav{
     padding: 40px 5%;
     flex-wrap: wrap;
     gap: 20px;
+    box-sizing: border-box;
 }
 
 .texto-contacto {
     max-width: 400px;
     font-family: 'Megumi', sans-serif;
+    margin-bottom: 20px;
 }
 
 .texto-contacto h2 {
@@ -221,6 +223,9 @@ nav{
 .formulario-contacto {
     max-width: 450px;
     flex:  0 1 450px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #d4d4d4;
 }
 
 .formulario-contacto h3 {
@@ -233,19 +238,27 @@ nav{
 .formulario-contacto form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
-.formulario-contacto input:focus, .formulario-contacto textarea:focus {
+.formulario-contacto input, .formulario-contacto textarea {
     padding: 10px;
-    border: none;
-    border-radius: 0px;
-     border-bottom: 1px solid #ffffff;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
     background-color: #d4d4d4;
     font-size: 1rem;
+    margin-bottom: 15px;
 }
-.formulario-contacto textarea {
-  resize: none;
-  height: 80px;
+.formulario-contacto input[type="submit"] {
+    border-radius: 10px;
+    background-color: #237286;
+    color: #ffffff;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-contacto input[type="submit"]:hover {
+    background-color: #d4d4d4;
 }
 
 /* Footer */
