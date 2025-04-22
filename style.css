@@ -261,11 +261,9 @@ footer {
     background-color: #d4d4d4;
     color: #237286;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     font-size: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    margin-top: 0;
+    margin-top: auto;
+    box-sizing: border-box;
 }
