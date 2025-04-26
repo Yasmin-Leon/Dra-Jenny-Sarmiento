@@ -165,22 +165,6 @@ nav{
     margin-bottom: 30px;
 }
 
-.boton-nav {
-    background-color: #ffffff;
-    color: #237286;
-    padding: 10px 25px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    border: 2px solid #ffffff;
-    transition: all 0.3s ease;
-}
-
-.boton-nav:hover {
-    background-color: transparent;
-    color: #ffffff;
-}
-
 .video-inicio {
     flex: 1 1 400px;
     display: flex;
