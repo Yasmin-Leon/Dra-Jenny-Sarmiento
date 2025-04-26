@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Megumi', sans-serif;
+    font-family: 'Megumi';
     margin-top: 20px;
 }
 h1 {
@@ -134,7 +134,7 @@ nav{
 
 /* Sección Inicio */
 .inicio {
-    background-color: #237286; /* Azul como en tu fondo */
+    background-color: #237286;
     padding: 80px 0;
 }
 
@@ -145,7 +145,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap; /* Para que en móvil se acomode */
+    flex-wrap: wrap;
 }
 
 .texto-inicio {
@@ -154,7 +154,7 @@ nav{
 }
 
 .texto-inicio h1 {
-    font-family: 'Megumi', sans-serif;
+    font-family: 'Megumi';
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -272,12 +272,12 @@ nav{
 
 .texto-contacto {
     max-width: 400px;
-    font-family: 'Megumi', sans-serif;
+    font-family: 'Megumi';
     margin-bottom: 0;
 }
 
 .texto-contacto h2 {
-    font-family: 'Megumi', sans-serif;
+    font-family: 'Megumi';
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
@@ -304,7 +304,7 @@ nav{
   font-size: 1.125rem;
   margin-bottom: 15px;
   color: #000000;
-  font-family: 'Megumi', sans-serif;
+  font-family: 'Bahnschrift', sans-serif;
 }
 
 .formulario-contacto form {
