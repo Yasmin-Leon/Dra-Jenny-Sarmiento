@@ -132,6 +132,75 @@ nav{
   transform: scale(1.1);
 }
 
+/* Sección Inicio */
+.inicio {
+    background-color: #237286; /* Azul como en tu fondo */
+    padding: 80px 0;
+}
+
+.container-inicio {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Para que en móvil se acomode */
+}
+
+.texto-inicio {
+    flex: 1 1 500px;
+    color: #ffffff;
+}
+
+.texto-inicio h1 {
+    font-family: 'Megumi', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.texto-inicio p {
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+}
+
+.boton-nav {
+    background-color: #ffffff;
+    color: #237286;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
+}
+
+.boton-nav:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.video-inicio {
+    flex: 1 1 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-video {
+    width: 100%;
+    height: 250px;
+    background-color: #b5d4db;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
 /* Sección Sobre Mí */
 .sobre-mi {
     background-color: #ffffff;
@@ -193,10 +262,9 @@ nav{
 
 .contacto {
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: start;
     padding: 40px 5%;
-    flex-wrap: wrap;
-    gap: 0;
+    gap: 40px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -260,7 +328,6 @@ font-family:  'Bahnschrift', sans-serif;
 }
 
 .formulario-contacto input[type="submit"] {
-    all: unset;
     border: none;
     border-radius: 10px;
     background-color: #237286;
