@@ -258,6 +258,7 @@ font-family:  'Bahnschrift', sans-serif;
 }
 
 .formulario-contacto input[type="submit"] {
+    all: unset;
     border: none;
     border-radius: 10px;
     background-color: #237286;
