@@ -209,12 +209,14 @@ nav{
 }
 
 .texto-contacto h2 {
+    font-family: 'Megumi', sans-serif;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .texto-contacto p {
+    font-family: 'Bahnschrift', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     color: #000000;
