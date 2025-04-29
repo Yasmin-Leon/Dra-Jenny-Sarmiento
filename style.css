@@ -198,6 +198,7 @@ video {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Carrusel Antes y Después y Reseñas */
 .carrusel-contenedor {
     display: flex;
     align-items: center;
@@ -207,6 +208,14 @@ video {
     padding: 40px 20px;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+     scrollbar-width: none;
+    -ms-overflow-style: none;
+     scroll-behavior: smooth;
+    cursor: grab;
+}
+
+.carrusel-contenedor::-webkit-scrollbar {
+    display: none;
 }
 
 .carrusel {
@@ -222,6 +231,7 @@ video {
     border-radius: 15px;
     text-align: center;
     width: 280px;
+    color: #000000; 
 }
 
 .slide img {
@@ -231,11 +241,14 @@ video {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.carrusel-antes-despues h2,
 .carrusel-reseñas h2 {
     text-align: center;
     font-size: 1.8rem;
     font-family: 'Bahnschrift', sans-serif;
     margin-top: 40px;
+    color: #ffffff;
     }
 
 /* Sección Sobre Mí */
