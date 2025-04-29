@@ -135,29 +135,29 @@ nav{
 /* Sección Inicio */
 .inicio {
     background-color: #237286;
-    padding: 180px 0;
+    padding: 140px 0;
 }
 
 .container-inicio {
-    width: 95%;
-    max-width: 1700px;
+    width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 60px;
 }
 
 .texto-inicio {
-    flex: 1 1 800px;
+    flex: 1 1 600px;
     color: #ffffff;
 }
 
 .texto-inicio h1 {
     font-family: 'Megumi';
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:  #ffffff;
     margin-bottom: 20px;
 }
@@ -170,7 +170,7 @@ nav{
 }
 
 .video-inicio {
-    flex: 1 1 800px;
+    flex: 1 1 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,7 +184,7 @@ video {
 
 .boton-inicio {
     display: inline-block;
-    padding: 16px 32px;
+    padding: 14px 30px;
     color: #ffffff;
     border: 2px solid white;
     border-radius: 10px;
@@ -205,8 +205,8 @@ video {
     align-items: center;
     justify-content: flex-start;
     overflow-x: auto;
-    gap: 40px;
-    padding: 80px 40px;
+    gap: 35px;
+    padding: 75px 35px;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
      scrollbar-width: none;
@@ -225,23 +225,23 @@ video {
 
 .carrusel {
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 .slide {
     flex: 0 0 auto;
     scroll-snap-align: center;
     background-color: #d4d4d4;
-    padding: 40px;
+    padding: 30px;
     border-radius: 15px;
     text-align: center;
-    width: 400px;
+    width: 300px;
     color: #000000; 
 }
 
 .slide img {
     width: 100%;
-    height: 280px;
+    height: 220px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 12px;
@@ -250,9 +250,9 @@ video {
 .carrusel-antes-despues h2,
 .carrusel-reseñas h2 {
     text-align: center;
-    font-size:  2.4rem;
+    font-size:  2rem;
     font-family: 'Bahnschrift', sans-serif;
-    margin-top: 60px;
+    margin-top: 50px;
     color: #ffffff;
     }
 .estrellas {
