@@ -135,29 +135,29 @@ nav{
 /* Sección Inicio */
 .inicio {
     background-color: #237286;
-    padding: 120px 0;
+    padding: 180px 0;
 }
 
 .container-inicio {
-    width: 90%;
-    max-width: 1400px;
+    width: 95%;
+    max-width: 1700px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 100px;
 }
 
 .texto-inicio {
-    flex: 1 1 600px;
+    flex: 1 1 800px;
     color: #ffffff;
 }
 
 .texto-inicio h1 {
     font-family: 'Megumi';
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color:  #ffffff;
     margin-bottom: 20px;
 }
@@ -165,12 +165,12 @@ nav{
 .texto-inicio p {
     font-family: 'Bahnschrift', sans-serif;
     color:  #000000;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     margin-bottom: 30px;
 }
 
 .video-inicio {
-    flex: 1 1 600px;
+    flex: 1 1 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,7 +184,7 @@ video {
 
 .boton-inicio {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 16px 32px;
     color: #ffffff;
     border: 2px solid white;
     border-radius: 10px;
@@ -192,7 +192,7 @@ video {
     font-weight: bold;
     transition: background-color 0.3s ease;
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .boton-inicio:hover {
@@ -205,39 +205,43 @@ video {
     align-items: center;
     justify-content: flex-start;
     overflow-x: auto;
-    gap: 30px;
-    padding: 50px 30px;
+    gap: 40px;
+    padding: 80px 40px;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
      scrollbar-width: none;
     -ms-overflow-style: none;
      scroll-behavior: smooth;
     cursor: grab;
+    user-select: none;
+    touch-action: pan-x;
 }
-
+.carrusel-contenedor:active {
+    cursor: grabbing;
+}
 .carrusel-contenedor::-webkit-scrollbar {
     display: none;
 }
 
 .carrusel {
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .slide {
     flex: 0 0 auto;
     scroll-snap-align: center;
     background-color: #d4d4d4;
-    padding: 25px;
+    padding: 40px;
     border-radius: 15px;
     text-align: center;
-    width: 320px;
+    width: 400px;
     color: #000000; 
 }
 
 .slide img {
     width: 100%;
-    height: 240px;
+    height: 280px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 12px;
@@ -246,11 +250,16 @@ video {
 .carrusel-antes-despues h2,
 .carrusel-reseñas h2 {
     text-align: center;
-    font-size:  2rem;
+    font-size:  2.4rem;
     font-family: 'Bahnschrift', sans-serif;
     margin-top: 60px;
     color: #ffffff;
     }
+.estrellas {
+    color: #237286;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
 
 /* Sección Sobre Mí */
 .sobre-mi {
