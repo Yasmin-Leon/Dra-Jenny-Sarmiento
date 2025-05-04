@@ -290,7 +290,7 @@ video {
     font-size: 1.1em;
 }
 
-.formacion, .experiencia, .especialidades {
+.formacion, .especialidades, .frase {
     background-color: #fafafa;
     padding: 40px 20px;
     margin: 20px auto;
@@ -299,27 +299,24 @@ video {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.formacion h3, .experiencia h3, .especialidades h3 {
+.formacion h3, .especialidades h3,  .frase blockquote {
     color: #007a7c;
     margin-bottom: 15px;
     text-align: center;
 }
 
-.formacion ul, .especialidades ul {
+ul li {
     list-style: none;
     padding: 0;
     text-align: left;
     max-width: 700px;
     margin: 0 auto;
-}
-
-.formacion ul li, .especialidades ul li {
     margin-bottom: 10px;
     padding-left: 20px;
     position: relative;
 }
 
-.formacion ul li::before, .especialidades ul li::before {
+.ul li::before {
     content: '✔';
     color: #007a7c;
     position: absolute;
