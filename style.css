@@ -356,23 +356,64 @@ blockquote {
 }
 
 /* Sección Tratamientos */
-.tratamientos {
+.tratamiento {
     background-color: #ffffff;
     padding: 50px 0;
     text-align: center;
 }
 
-.tratamientos .grid {
-    display: grid;
-    max-width: 1000px;
-    margin: auto;
+.carrusel-tratamientos h2 {
+    text-align: center;
+    font-size:  2rem;
+    font-family: 'Bahnschrift', sans-serif;
+    margin-top: 50px;
+    color: #ffffff;
+    }
+.carrusel-tratamientos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto;
+    gap: 35px;
+    padding: 75px 35px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+     scrollbar-width: none;
+    -ms-overflow-style: none;
+     scroll-behavior: smooth;
+    cursor: grab;
+    user-select: none;
+    touch-action: pan-x;
+}
+.carrusel-tratamientos:active {
+    cursor: grabbing;
+}
+.carrusel-tratamientos::-webkit-scrollbar {
+    display: none;
 }
 
-.tratamientos .grid div {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0);
+.carrusel {
+    display: flex;
+    gap: 30px;
+}
+
+.slide {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    background-color: #d4d4d4;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    color: #000000; 
+}
+
+.slide img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
 }
 
 /* Sección Agendar Cita */
