@@ -202,23 +202,16 @@ nav {
 }
 
 /* Carrusel Antes y Después, Reseñas, tratamientos */
-.carrusel-antes-despues, .carrusel-reseñas h2 {
-    font-size: 2.5rem;
+.carrusel-antes-despues h2,
+.carrusel-reseñas h2 {
     text-align: center;
     color: #ffffff;
-    margin-top: 40px;
-    padding-top: 40px;
+    font-size: 2.2rem;
+    margin: 60px 0 20px 0;
+    font-family: 'Megumi', sans-serif;
+    padding: 0 20px;
 }
 
-.carrusel-antes-despues .carrusel-reseñas h2::after {
-    content: '';
-    display: block;
-    width: 80px;
-    height: 4px;
-    background-color: #ffffff;
-    margin: 12px auto 0 auto;
-    border-radius: 2px;
-}
 .carrusel-contenedor, .carrusel-tratamientos {
     display: flex;
     overflow-x: auto;
