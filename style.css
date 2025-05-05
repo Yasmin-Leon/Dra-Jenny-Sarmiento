@@ -39,9 +39,10 @@ h3 {
     padding: 15px 25px;
     box-sizing: border-box;
 }
-nav{
-    margin: 15px 0;
-    }
+
+nav {
+     margin: 0;
+ }
 
 .boton-nav {
     text-decoration: none;
@@ -185,7 +186,7 @@ video {
 }
 
 /* Carrusel Antes y Después, Reseñas, tratamientos */
-.carrusel-contenedor, carrusel-tratamientos {
+.carrusel-contenedor, .carrusel-tratamientos {
     display: flex;
     overflow-x: auto;
     gap: 35px;
@@ -287,7 +288,7 @@ ul li {
     position: relative;
 }
 
-ul li::before {
+.formacion, .especialidades ul li::before {
     content: '✔';
     color: #000000;
     position: absolute;
