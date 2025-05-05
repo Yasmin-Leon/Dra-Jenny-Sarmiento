@@ -65,6 +65,7 @@ nav {
 /* Estilos del header */
 .barra {
     display: flex;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -74,6 +75,7 @@ nav {
     background-color: #d4d4d4;
     z-index: 1000;
     box-sizing: border-box;
+    height: 80px;
 }
 .logo {
     width: auto;
@@ -186,6 +188,23 @@ video {
 }
 
 /* Carrusel Antes y Después, Reseñas, tratamientos */
+.carrusel-antes-despues .reseñas h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+    position: relative;
+}
+
+.carrusel-antes-despues .reseñas h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 12px auto 0 auto;
+    border-radius: 2px;
+}
 .carrusel-contenedor, .carrusel-tratamientos {
     display: flex;
     overflow-x: auto;
