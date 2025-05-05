@@ -423,6 +423,8 @@ blockquote {
     cursor: grab;
     user-select: none;
     touch-action: pan-x;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .carrusel-tratamientos:active {
     cursor: grabbing;
@@ -445,6 +447,12 @@ blockquote {
     text-align: center;
     width: 300px;
     color: #000000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.slide:hover {
+    transform: scale(1.02);
 }
 
 .slide img {
@@ -453,6 +461,11 @@ blockquote {
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 12px;
+    transition: transform 0.3s ease
+}
+
+.slide img:hover {
+    transform: scale(1.03);
 }
 
 /* Sección Agendar Cita */
