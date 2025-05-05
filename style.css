@@ -154,7 +154,10 @@ nav {
 
 .texto-inicio p {
     font-family: 'Bahnschrift', sans-serif;
-    color:  #000000;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
     font-size: 1.6rem;
     margin-bottom: 30px;
 }
@@ -199,15 +202,15 @@ nav {
 }
 
 /* Carrusel Antes y Después, Reseñas, tratamientos */
-.carrusel-antes-despues .reseñas h2 {
+.carrusel-antes-despues, .carrusel-reseñas h2 {
     font-size: 2.5rem;
     text-align: center;
     color: #ffffff;
     margin-top: 40px;
-    position: relative;
+    padding-top: 40px;
 }
 
-.carrusel-antes-despues .reseñas h2::after {
+.carrusel-antes-despues .carrusel-reseñas h2::after {
     content: '';
     display: block;
     width: 80px;
