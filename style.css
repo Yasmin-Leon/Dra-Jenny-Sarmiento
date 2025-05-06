@@ -284,6 +284,17 @@ nav {
     color: #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.carrusel-antes-despues .slide .info {
+    padding-bottom: 4rem;
+}
+
+.carrusel-tratamientos .slide .info {
+    padding: 1rem 0 0;
 }
 
 .slide:hover {
