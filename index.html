@@ -46,9 +46,10 @@
 
 <section class="carrusel-antes-despues">
     <h2>Antes y Después</h2>
-    <div class="carrusel-contenedor"> 
-	<button class="flecha izquierda" onclick="moverCarrusel('antes', -1)">&#10094;</button>
-        <div class="carrusel" id="carrusel-antes-despues">
+    <div class="carrusel-wrapper"> 
+    <button class="flecha izquierda" data-target="carrusel-antes-despues">&#10094;</button>
+    <div class="carrusel-contenedor" id="carrusel-antes-despues">
+      <div class="carrusel">
             <div class="slide">
                 <img src="Plasma.jpg" alt="Plasma Rico en Plaquetas (PRP)">
                 <p>Plasma Rico en Plaquetas (PRP)</p>
@@ -90,7 +91,7 @@
 		<a href="tratamientos.html" class="boton-nav">Saber más</a>
             </div>
         </div>
-	<button class="flecha derecha" onclick="moverCarrusel('antes', 1)">&#10095;</button>
+	<button class="flecha derecha" data-target="carrusel-antes-despues">&#10095;</button>    
     </div>
 </section>
 
@@ -130,10 +131,24 @@
     </div>
 </section>
 </main>
-
         <footer>
           <p>2025 Dra. Jenny Sarmiento | Clínica Stemwell Health</p>
         </footer>
-	<script src="script.js"></script>
+	<script>
+document.querySelectorAll(".flecha").forEach(boton => {
+    boton.addEventListener("click", () => {
+        const direccion = boton.classList.contains("izquierda") ? -1 : 1;
+        const carruselId = boton.getAttribute("data-target");
+        const carruselContenedor = document.getElementById(carruselId);
+        const carrusel = carruselContenedor.querySelector(".carrusel");
+
+        const scrollAmount = carruselContenedor.offsetWidth * 0.8;
+        carruselContenedor.scrollBy({
+            left: direccion * scrollAmount,
+            behavior: "smooth"
+        });
+    });
+});
+</script>
     </body>
 </html>
