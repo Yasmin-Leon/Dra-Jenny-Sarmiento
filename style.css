@@ -502,6 +502,14 @@ footer {
     gap: 8px;
     padding: 10px 0;
   }
+      
+.menu::-webkit-scrollbar {
+  height: 6px;
+}
+.menu::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
 
   .boton-nav {
     flex: 0 0 auto;
