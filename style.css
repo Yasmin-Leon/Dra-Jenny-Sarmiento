@@ -277,7 +277,7 @@ nav {
     flex: 0 0 auto;
     scroll-snap-align: center;
     background-color: #d4d4d4;
-    padding: 30px;
+    padding: 20px 20px 25px 20px;
     border-radius: 15px;
     text-align: center;
     width: 300px;
@@ -287,6 +287,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    height: auto;
 }
 
 .carrusel-antes-despues .slide .info {
