@@ -485,32 +485,35 @@ footer {
   .contacto {
     grid-template-columns: 1fr;
     text-align: center;
+
+  .barra {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
   }
-    
-    .barra {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 6px 10px;
-    }
 
-    .menu {
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  gap: 8px;
-  padding-bottom: 10px;
-   }
+  .menu {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+    padding: 10px 0;
+  }
 
-    .boton-nav {
-        font-size: 0.95rem;
-        padding: 6px 10px;
-    }
+  .boton-nav {
+    flex: 0 0 auto;
+    font-size: 0.9rem;
+    padding: 8px 14px;
+    white-space: nowrap;
+  }
 
-    .logo {
-        max-width: 120px;
-        height: 40px;
-        margin-bottom: 10px;
-    }
+  .logo {
+    margin-bottom: 12px;
+    max-width: 140px;
+  }
 
   .redes-sociales {
     right: 10px;
