@@ -28,8 +28,14 @@
    <a href="https://www.tiktok.com/@drajennysarmiento" target="_blank" class="icono tiktok"><i class="fab fa-tiktok"></i></a>
       </div>   
 
- <main class="carrusel-contenedor">
-  <section class="slide">
+ <main>
+     <section class="carrusel-tratamientos">
+     <div class="carrusel-wrapper"> 
+     <button class="flecha izquierda" data-target="carrusel-tratamientos">&#10094;</button> 
+    <div class="carrusel-contenedor" id="carrusel-tratamientos">	
+    <div class="carrusel">
+ 
+    <section class="slide">
     <img src="Toxina T.jpg" alt="Toxina Botulínica">
     <div class="info">
       <h2>Toxina Botulínica</h2>
@@ -130,13 +136,31 @@
       <p>Medicamentos personalizados para combatir la caída del cabello y fortalecer los folículos. 
 	      <br><strong>Requiere:</strong> valoración médica. <strong>Complementa:</strong> mesoterapia y PRP. 
 	      <strong>Resultados:</strong> pueden observarse a partir de los 3 a 6 meses de tratamiento continuo.</p>
-    </div>
+      </div>
+      </div>
+    <button class="flecha derecha" data-target="carrusel-reseñas">&#10095;</button>	  
+  </div>
   </section>
-
 </main>
-
         <footer>
             <p>2025 Dra. Jenny Sarmiento | Clínica Stemwell Health</p>
         </footer>
+	    
+<script>
+document.querySelectorAll(".flecha").forEach(boton => {
+    boton.addEventListener("click", () => {
+        const direccion = boton.classList.contains("izquierda") ? -1 : 1;
+        const carruselId = boton.getAttribute("data-target");
+        const carruselContenedor = document.getElementById(carruselId);
+        const carrusel = carruselContenedor.querySelector(".carrusel");
+
+        const scrollAmount = carruselContenedor.offsetWidth * 0.8;
+        carruselContenedor.scrollBy({
+            left: direccion * scrollAmount,
+            behavior: "smooth"
+        });
+    });
+});
+</script>	    	    
     </body>
 </html>
