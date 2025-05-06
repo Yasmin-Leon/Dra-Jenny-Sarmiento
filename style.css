@@ -61,16 +61,15 @@ h3 {
 
 /* Estilos del header */
 .barra {
-    min-height: 70px;
-    overflow: hidden;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 15px;
     justify-content: space-between;
     background-color: rgba(212, 212, 212, 0.8);
     backdrop-filter: blur(10px);
@@ -78,6 +77,7 @@ h3 {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     box-sizing: border-box;
+    height: auto;
 }
 .logo {
     height: 60px;
