@@ -68,7 +68,7 @@ h3 {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px 0;
     justify-content: space-between;
     background-color: rgba(212, 212, 212, 0.3);
     backdrop-filter: blur(10px);
