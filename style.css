@@ -44,7 +44,7 @@ h3 {
     text-decoration: none;
     color:  #ffffff;
     background-color:  #237286;
-    padding: 12px 18px;
+    padding: 10px 15px;
     white-space: nowrap;
     margin: 5px;
     border-radius: 10px;
@@ -62,13 +62,12 @@ h3 {
 /* Estilos del header */
 .barra {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 15px;
+    padding: 8px 20px;
     justify-content: space-between;
     background-color: rgba(212, 212, 212, 0.7);
     backdrop-filter: blur(10px);
@@ -76,7 +75,6 @@ h3 {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     box-sizing: border-box;
-    height: auto;
 }
 .logo {
     height: 60px;
