@@ -37,8 +37,8 @@
             </div>
 		
 	    <div class="formulario-contacto">
-		<h3> <p>¿Listo para cuidar tu piel?</p> 
-		     <p>Déjanos tus datos y nos pondremos en contacto contigo.</p> </h3>
+		<h3>¿Listo para cuidar tu piel?</h3>
+		     <p>Déjanos tus datos y nos pondremos en contacto contigo.</p>
                 <form action="formulario-datos.php" method="POST">
                     
                         <label for="nombre">Nombre Completo</label>
@@ -48,12 +48,12 @@
                         <input type="email" id="email" name="email" required placeholder="Ej. ana@email.com">
         
                         <label for="telefono">Teléfono</label>
-                        <input type="tel" id="telefono" name="telefono" required placeholder="Ej. 1234567890">
+                        <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{10}" required placeholder="Ej. 1234567890">
         
                         <label for="mensaje">Motivo de la consulta</label>
                         <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Describe tu motivo de consulta"></textarea>
         
-                    <button type="submit" class="boton-nav">Enviar</button>
+                    <button type="submit"  id="boton-enviar" class="boton-nav">Enviar</button>
                 </form>
             </div>
         </section>
