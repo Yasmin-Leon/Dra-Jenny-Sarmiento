@@ -348,7 +348,7 @@ ul li {
 
 .formacion ul li::before, .especialidades ul li::before {
     content: '✔';
-    color: #000000;
+    color: #237286;
     left: 0;
     position: absolute;
     font-weight: bold;
