@@ -485,7 +485,7 @@ footer {
   .contacto {
     grid-template-columns: 1fr;
     text-align: center;
-
+  }
   .barra {
     display: flex;
     flex-direction: column;
