@@ -264,12 +264,12 @@ nav {
 
 .flecha.izquierda {
     position: absolute;
-    left: 10px;
+    left: 15px;
 }
 
 .flecha.derecha {
     position: absolute;
-    right: 10px;
+    right: 35px;
 }
 
 .slide {
