@@ -491,7 +491,6 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    width: 100%;
   }
 
   .logo {
@@ -501,21 +500,30 @@ footer {
 
   .menu {
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     overflow-x: auto;
     white-space: nowrap;
     gap: 10px;
-    padding: 8px 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
     width: 100%;
     justify-content: flex-start;
   }
 
-  .boton-nav {
+  .menu li {
     flex: 0 0 auto;
+  }
+
+  .boton-nav {
+    display: inline-block;
     font-size: 0.85rem;
     padding: 6px 12px;
     border-radius: 8px;
     white-space: nowrap;
+    background-color: #157a8a;
+    color: white;
+    text-decoration: none;
   }
 
   .menu::-webkit-scrollbar {
