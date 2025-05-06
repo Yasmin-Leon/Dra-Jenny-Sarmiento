@@ -263,13 +263,17 @@ nav {
 }
 
 .flecha.izquierda {
-    position: absolute;
-    left: 15px;
+    left: 20px;
 }
 
 .flecha.derecha {
-    position: absolute;
-    right: 35px;
+    right: 70px;
+}
+
+.flecha.izquierda,
+.flecha.derecha {
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .slide {
