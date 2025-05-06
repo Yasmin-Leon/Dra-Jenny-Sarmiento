@@ -522,4 +522,17 @@ footer {
     height: 32px;
     font-size: 16px
   }
+.flecha {
+    font-size: 1.5rem;
+    padding: 8px;
+  }
+
+  .flecha.izquierda {
+    left: 10px;
+  }
+
+  .flecha.derecha {
+    right: 10px;
+  }
 }
+
