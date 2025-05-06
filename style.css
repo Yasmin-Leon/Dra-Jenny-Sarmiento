@@ -494,6 +494,7 @@ footer {
   }
 
   .logo {
+    height: auto;
     max-width: 140px;
     margin-bottom: 10px;
   }
