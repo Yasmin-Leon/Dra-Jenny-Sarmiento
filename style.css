@@ -247,12 +247,15 @@ nav {
 }
 
 .flecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.3);
     border: none;
     color: #ffffff;
     font-size: 2rem;
     cursor: pointer;
-    z-index: 2;
+    z-index: 500;
     padding: 10px;
     border-radius: 20%;
     transition: background 0.3s;
@@ -267,13 +270,7 @@ nav {
 }
 
 .flecha.derecha {
-    right: 70px;
-}
-
-.flecha.izquierda,
-.flecha.derecha {
-    top: 50%;
-    transform: translateY(-50%);
+    right: 80px;
 }
 
 .slide {
