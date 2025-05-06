@@ -240,6 +240,39 @@ nav {
     gap: 30px;
 }
 
+.carrusel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.flecha {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.flecha:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.flecha.izquierda {
+    position: absolute;
+    left: 10px;
+}
+
+.flecha.derecha {
+    position: absolute;
+    right: 10px;
+}
+
 .slide {
     flex: 0 0 auto;
     scroll-snap-align: center;
