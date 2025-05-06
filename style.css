@@ -266,11 +266,11 @@ nav {
 }
 
 .flecha.izquierda {
-    left: -10px;
+    left: 20px;
 }
 
 .flecha.derecha {
-    right: 60px;
+    right: 90px;
 }
 
 .slide {
