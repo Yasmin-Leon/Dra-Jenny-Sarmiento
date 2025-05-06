@@ -44,7 +44,7 @@ h3 {
     text-decoration: none;
     color:  #ffffff;
     background-color:  #237286;
-    padding: 10px 15px;
+    padding: 8px 12px;
     white-space: nowrap;
     margin: 5px;
     border-radius: 10px;
@@ -67,7 +67,7 @@ h3 {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 8px 20px;
+    padding: 8px 15px;
     justify-content: space-between;
     background-color: rgba(212, 212, 212, 0.7);
     backdrop-filter: blur(10px);
