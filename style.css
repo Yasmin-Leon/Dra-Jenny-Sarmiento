@@ -494,12 +494,12 @@ footer {
     }
 
     .menu {
-        width: 100%;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        gap: 4px;
-        margin-top: 10px;
-    }
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 8px;
+  padding-bottom: 10px;
+   }
 
     .boton-nav {
         font-size: 0.95rem;
@@ -513,7 +513,6 @@ footer {
     }
 
   .redes-sociales {
-    display: none;
     right: 10px;
     gap: 6px;
   }
