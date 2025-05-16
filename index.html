@@ -35,17 +35,18 @@
  </video>    
  <div class="container-superpuesto">
         <div class="texto-inicio">
-            <h1>Cuidado Dermatológico Personalizado</h1>
-            <p>Bienvenidos al consultorio de la Dra. Jenny, tu especialista en el cuidado de la piel. Nuestro compromiso es
-		ayudarte a mantener una piel sana y radiante con tratamientos avanzados, personalizados y con resultados reales.</p>
-            <a href="Agendar cita.html" class="boton-inicio">Agenda tu cita</a>
+	    <h1>Cuidado Dermatológico Personalizado</h1>
+            <p>Bienvenidos al consultorio de la Dra. Jenny Sarmiento, donde tu piel es nuestra prioridad. 
+	       Aquí combinamos ciencia, experiencia y empatía para ofrecerte tratamientos efectivos, 
+	       seguros y adaptados a tus necesidades. Descubre una atención dermatológica integral, con resultados visibles y un trato humano excepcional.</p>
+            <a href="Agendar cita.html" class="boton-inicio">¡Agenda tu cita hoy mismo!</a>
         </div>
   </div>
   </div>
 </section>
 
 <section class="carrusel-antes-despues">
-    <h2>Antes y Después</h2>
+    <h2>Transformaciones reales: Antes y Después</h2>
     <div class="carrusel-wrapper"> 
     <button class="flecha izquierda" data-target="carrusel-antes-despues">&#10094;</button>
     <div class="carrusel-contenedor" id="carrusel-antes-despues">
@@ -96,49 +97,62 @@
 </section>
 
 <section class="carrusel-reseñas">
-    <h2>Lo que dicen nuestros pacientes</h2>
+    <h2>Testimonios de nuestros pacientes</h2>
     <div class="carrusel-wrapper"> 
     <button class="flecha izquierda" data-target="carrusel-reseñas">&#10094;</button> 
     <div class="carrusel-contenedor" id="carrusel-reseñas">
         <div class="carrusel">
             <div class="slide">
                 <p>"La Dra. Jenny es excelente. Mi piel ha mejorado muchísimo. Muy recomendada."</p>
-                <p><strong>Carolina M.</strong>  <span class="estrellas">★★★★★</p>
+                <p><strong>Carolina M.</strong>  <span class="estrellas">★★★★★</span></p>
             </div>
             <div class="slide">
                 <p>"Atención de calidad y resultados visibles. ¡Gracias doctora!"</p>
-                <p><strong>Esteban G.</strong>  <span class="estrellas">★★★★★</p>
+                <p><strong>Esteban G.</strong>  <span class="estrellas">★★★★★</span></p>
             </div>
             <div class="slide">
                 <p>"El tratamiento fue increíble. Me sentí muy segura durante todo el proceso."</p>
-                <p><strong>Lina R.</strong>  <span class="estrellas">★★★★★</p>
+                <p><strong>Lina R.</strong>  <span class="estrellas">★★★★★</span></p>
             </div>
             <div class="slide">
                 <p>"Resultados increíbles en poco tiempo. Súper profesionales y atentos."</p>
-                <p><strong>Marcela P.</strong>  <span class="estrellas">★★★★</p>
+                <p><strong>Marcela P.</strong>  <span class="estrellas">★★★★</span></p>
             </div>
             <div class="slide">
                 <p>"Nunca me había sentido tan feliz con mi piel. Volvería mil veces."</p>
-                <p><strong>Juanita V.</strong>  <span class="estrellas">★★★★★</p>
+                <p><strong>Juanita V.</strong>  <span class="estrellas">★★★★★</span></p>
             </div>
             <div class="slide">
                 <p>"Desde la primera cita sentí confianza. La atención es maravillosa."</p>
-                <p><strong>Daniela S.</strong>  <span class="estrellas">★★★★</p>
+                <p><strong>Daniela S.</strong>  <span class="estrellas">★★★★</span></p>
             </div>
             <div class="slide">
                 <p>"Profesionales de verdad, se nota la pasión por lo que hacen."</p>
-                <p><strong>Camilo R.</strong>  <span class="estrellas">★★★★★</p>
+                <p><strong>Camilo R.</strong>  <span class="estrellas">★★★★★</span></p>
             </div>
         </div>
 	<button class="flecha derecha" data-target="carrusel-reseñas">&#10095;</button>    
     </div>
 </section>
 </main>
-        <footer>
-          <p>2025 Dra. Jenny Sarmiento | Clínica Stemwell Health</p>
-        </footer>
-	<script>
-document.querySelectorAll(".flecha").forEach(boton => {
+	    
+<footer>
+    <div class="footer-contenido">
+    <div class="footer-logo">
+      <img src="logo.png" alt="Logo Dra. Jenny Sarmiento">
+    </div>
+    <div class="footer-info">
+      <h3>Contacto</h3>
+      <p><i class="fas fa-phone"></i> +57 318 900 4216</p>
+      <p><i class="fas fa-envelope"></i> dra.jennysarmiento@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Clínica Stemwell Health, Bogotá, Colombia</p>
+    </div>
+    <div class="footer-copy">
+        <p>&copy; 2025 Dra. Jenny Sarmiento | Todos los derechos reservados</p>
+      </div>
+</footer>
+<script>
+    document.querySelectorAll(".flecha").forEach(boton => {
     boton.addEventListener("click", () => {
         const direccion = boton.classList.contains("izquierda") ? -1 : 1;
         const carruselId = boton.getAttribute("data-target");
