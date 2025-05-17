@@ -9,8 +9,8 @@
     </head>
     <body>
        <header>
-			<nav class="barra">
-			<img src="logo.png" alt="Logo de la Dra. Jenny Sarmiento" class="logo">
+	    <nav class="barra">
+		<img src="logo.png" alt="Logo de la Dra. Jenny Sarmiento" class="logo">
             <ul class="menu">
                 <li><a href="index.html" class="boton-nav">Inicio</a></li>
                 <li><a href="sobre mí.html" class="boton-nav">Sobre mí</a></li>
@@ -48,18 +48,30 @@
                         <input type="email" id="email" name="email" required placeholder="Ej. ana@email.com">
         
                         <label for="telefono">Teléfono</label>
-                        <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{10}" required placeholder="Ej. 1234567890">
+                        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required placeholder="Ej. 1234567890">
         
                         <label for="mensaje">Motivo de la consulta</label>
-                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Describe tu motivo de consulta"></textarea>
+                        <textarea id="mensaje" name="mensaje" rows="5" required minlength="10" placeholder="Describe tu motivo de consulta"></textarea>
         
                     <button type="submit"  id="boton-enviar" class="boton-nav">Enviar</button>
                 </form>
             </div>
         </section>
 
-        <footer>
-            <p>2025 Dra. Jenny Sarmiento | Clínica Stemwell Health</p>
-        </footer>
+<footer>
+    <div class="footer-contenido">
+    <div class="footer-logo">
+      <img src="logo.png" alt="Logo Dra. Jenny Sarmiento">
+    </div>
+    <div class="footer-info">
+      <h3>Contacto</h3>
+      <p><i class="fas fa-phone"></i> +57 318 900 4216</p>
+      <p><i class="fas fa-envelope"></i> dra.jennysarmiento@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Clínica Stemwell Health, Bogotá, Colombia</p>
+    </div>
+    <div class="footer-copy">
+        <p>&copy; 2025 Dra. Jenny Sarmiento | Todos los derechos reservados</p>
+      </div>
+</footer>
     </body>
 </html>
