@@ -65,14 +65,23 @@ h3 { font-size: 1.75rem;}
 .boton-descripcion {
   background-color: #237286;
   color: #fff;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border: none;
   cursor: pointer;
   font-family: 'Bahnschrift', sans-serif;
-  margin: 20px auto;
-  display: block;
   font-size: 1rem;
-  border-radius: 8px;
+  border-radius: 6px;
+  margin-top: 0;           
+  margin-bottom: 10px;    
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s ease;
+}
+
+.boton-descripcion:hover {
+  background-color: #d4d4d4; 
 }
 
 .descripcion-pagina {
