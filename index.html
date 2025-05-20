@@ -159,6 +159,18 @@
       </div>
       </div>
 </footer>
+
+<script>
+  const btn = document.querySelector('.boton-descripcion');
+  const desc = document.getElementById('descripcion');
+
+  btn.addEventListener('click', () => {
+    const isVisible = desc.style.display === 'block';
+    desc.style.display = isVisible ? 'none' : 'block';
+    btn.textContent = isVisible ? 'Mostrar descripción' : 'Ocultar descripción';
+  });
+</script>
+	    
 <script>
     document.querySelectorAll(".flecha").forEach(boton => {
     boton.addEventListener("click", () => {
