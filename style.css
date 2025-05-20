@@ -65,7 +65,7 @@ h3 { font-size: 1.75rem;}
 .descripcion-pagina {
   background-color: #237286;
   color: #ffffff;
-  padding: 100px 20px 60px;
+  padding: 80px 20px 60px;
   margin-top: 0px;
   text-align: center;
   font-family: 'Bahnschrift', sans-serif;
@@ -90,7 +90,7 @@ h3 { font-size: 1.75rem;}
     flex-wrap: wrap;
     align-items: center;
     position: fixed;
-    top: 50px;
+    top: 0;
     left: 0;
     width: 100%;
     padding: 20px 60px;
