@@ -43,7 +43,7 @@ h3 {
 .boton-nav {
     text-decoration: none;
     color:  #ffffff;
-    background-color:  #237286;
+    background-color: #237286;
     padding: 10px 15px;
     white-space: nowrap;
     margin: 5px;
@@ -58,6 +58,27 @@ h3 {
     color:  #237286;
     transform: scale(1.05);
     }
+
+/* Descripción de la pagina*/
+.descripcion-pagina {
+  background-color: #237286;
+  color: #ffffff;
+  padding: 100px 20px 60px;
+  text-align: center;
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+.descripcion-pagina h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.descripcion-pagina p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 /* Estilos del header */
 .barra {
