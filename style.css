@@ -1,4 +1,30 @@
+@font-face {
+    font-family: 'Megumi';
+    src: url('Megumi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+/* Estilos generales */
+body {
+    font-family: 'Bahnschrift', sans-serif;
+    margin: 0;
+    padding-top: 100px;
+    background-color: #237286;
+    color: #000000;
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Megumi';
+    margin-top: 20px;
+    color: inherit;
+}
 }
 h1 {
     font-size: 2.5rem; }
