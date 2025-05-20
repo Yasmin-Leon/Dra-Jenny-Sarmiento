@@ -90,7 +90,7 @@ h3 {
     top: 0;
     left: 0;
     width: 100%;
-    padding: auto;
+    padding: 0 15px;
     justify-content: space-between;
     background-color: rgba(212, 212, 212, 0.7);
     backdrop-filter: blur(10px);
@@ -100,15 +100,13 @@ h3 {
     box-sizing: border-box;
     height: 80px;
 }
+
 .logo {
   height: 60px;
-  max-width: 140px;
-}
-
-.logo img {
-  height: 100%;
   width: auto;
+  max-width: 140px;
   object-fit: contain;
+  display: block;
 }
 
 .menu {
