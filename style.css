@@ -1,3 +1,4 @@
+@media (max-width: 1025px)
 @font-face {
     font-family: 'Megumi';
     src: url('Megumi.woff') format('woff');
@@ -26,16 +27,13 @@ h1, h2, h3 {
     color: inherit;
 }
 
-h1 {
-    font-size: 2.5rem; }
-h2 {
-    font-size: 2rem; }
-h3 {
-    font-size: 1.75rem;}
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem;}
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 15px 25px;
     box-sizing: border-box;
@@ -50,40 +48,8 @@ h3 {
     margin: 5px;
     border-radius: 10px;
     display: inline-block;
-    font-size: 1.2rem;@font-face {
-    font-family: 'Megumi';
-    src: url('Megumi.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-size: 1.2rem;
 }
-
-/* Estilos generales */
-body {
-    font-family: 'Bahnschrift', sans-serif;
-    margin: 0;
-    padding-top: 100px;
-    background-color: #237286;
-    color: #000000;
-    scroll-behavior: smooth;
-    font-size: 1rem;
-    line-height: 1.6;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-h1, h2, h3 {
-    font-family: 'Megumi';
-    margin-top: 20px;
-    color: inherit;
-    font-weight: bold;
-    transition: 0.3s ease;
-    }
-.boton-nav:hover{
-    background-color:  #ffffff;
-    color:  #237286;
-    transform: scale(1.05);
-    }
 
 /* Descripción de la pagina*/
 .descripcion-pagina {
@@ -567,7 +533,7 @@ footer {
 }
 
 /* RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .container-inicio {
     flex-direction: column;
     text-align: center;
