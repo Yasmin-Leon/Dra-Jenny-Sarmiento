@@ -48,7 +48,14 @@ h3 { font-size: 1.75rem;}
     border-radius: 10px;
     display: inline-block;
     font-size: 1.2rem;
-}
+    font-weight: bold;
+    transition: 0.3s ease;
+    }
+.boton-nav:hover{
+    background-color:  #ffffff;
+    color:  #237286;
+    transform: scale(1.05);
+    }
 
 /* Descripción de la pagina*/
 .descripcion-pagina {
