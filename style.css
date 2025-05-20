@@ -125,11 +125,11 @@ h3 { font-size: 1.75rem;}
     margin: 0;
 }
 
-/* estilo de redes sociales */
+/* Redes sociales */
 .redes-sociales {
   position: fixed;
   right: 20px;
-  top: 50%;
+  top: 30px;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
