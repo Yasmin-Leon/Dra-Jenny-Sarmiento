@@ -28,7 +28,8 @@
    <a href="https://www.tiktok.com/@drajennysarmiento" target="_blank" class="icono tiktok"><i class="fab fa-tiktok"></i></a>
       </div>   
 
-<section class="descripcion-pagina">
+<button class="boton-descripcion">Leer detalles de tratamientos</button>
+<div class="descripcion-pagina" id="descripcion">
     <h1>Tratamientos dermatológicos y estéticos</h1>
     <p>Explora los tratamientos disponibles para el cuidado de tu piel, desde procedimientos clínicos hasta estéticos.</p>
 </section>
@@ -152,7 +153,7 @@
 <footer>
     <div class="footer-contenido">
     <div class="footer-logo">
-      <img src="logo.png" alt="Logo Dra. Jenny Sarmiento">
+      <img src="icono.png" alt="Logo Dra. Jenny Sarmiento">
     </div>
     <div class="footer-info">
       <h3>Contacto</h3>
@@ -164,6 +165,17 @@
         <p>&copy; 2025 Dra. Jenny Sarmiento | Todos los derechos reservados</p>
       </div>
 </footer>
+
+<script>
+  const btn = document.querySelector('.boton-descripcion');
+  const desc = document.getElementById('descripcion');
+
+  btn.addEventListener('click', () => {
+    const isVisible = desc.style.display === 'block';
+    desc.style.display = isVisible ? 'none' : 'block';
+    btn.textContent = isVisible ? 'Leer detalles de tratamientos' : 'Ocultar detalles de tratamientos';
+  });
+</script>  
 	    
 <script>
 document.querySelectorAll(".flecha").forEach(boton => {
