@@ -544,8 +544,8 @@ footer {
 
 .footer-info {
   display: flex;
-  flex-direction: left;
-  align-items: left;  
+  flex-direction: center;
+  align-items: center;  
   gap: 6px;
   font-size: 1.2rem;
   flex: 1;
