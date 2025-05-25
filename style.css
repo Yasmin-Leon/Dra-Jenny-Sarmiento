@@ -522,36 +522,38 @@ ul li {
 footer {
   background-color: #d4d4d4;
   color: #237286;
-  padding: 40px 20px;
+  padding: 50px 40px;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family:  'Bahnschrift', sans-serif;
 }
 
 .footer-contenido {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
 }
 
 .footer-logo img {
-  height: 60px;
+  height: 70px;
   width: auto;
 }
 
 .footer-info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  font-size: 1rem;
+  gap: 14px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  flex: 1;
 }
 
 .footer-info h3 {
   margin-bottom: 10px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #237286;
 }
 
@@ -561,9 +563,9 @@ footer {
 
 .footer-copy {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   opacity: 0.8;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 /* RESPONSIVE */
