@@ -28,7 +28,7 @@
    <a href="https://www.tiktok.com/@drajennysarmiento" target="_blank" class="icono tiktok"><i class="fab fa-tiktok"></i></a>
       </div>  
 
-<button class="boton-descripcion">Leer detalles de agendar cita</button>
+<button class="boton-descripcion">Ver más información</button>
 <div class="descripcion-pagina" id="descripcion">
     <h1>Agenda tu cita</h1>
     <p>Déjanos tus datos para que podamos programar una consulta contigo y brindarte la mejor atención en dermatología.</p>
@@ -45,7 +45,7 @@
 		
 	    <div class="formulario-contacto">
 		<h3>¿Listo para cuidar tu piel?</h3>
-		     <p>Déjanos tus datos y nos pondremos en contacto contigo.</p>
+		     <p>Déjanos tus datos y nos comunicaremos contigo lo antes posible.</p>
                 <form action="formulario-datos.php" method="POST">
                     
                         <label for="nombre">Nombre Completo</label>
@@ -89,7 +89,8 @@
   btn.addEventListener('click', () => {
     const isVisible = desc.style.display === 'block';
     desc.style.display = isVisible ? 'none' : 'block';
-    btn.textContent = isVisible ? 'Leer detalles de agendar cita' : 'Ocultar detalles de agendar cita';
+    btn.textContent = isVisible ? 'Ver más información' : 'Ocultar información';
+  });
   });
 </script>    
     </body>
