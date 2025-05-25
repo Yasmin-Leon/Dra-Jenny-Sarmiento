@@ -28,10 +28,11 @@
    <a href="https://www.tiktok.com/@drajennysarmiento" target="_blank" class="icono tiktok"><i class="fab fa-tiktok"></i></a>
       </div>  
 
-<section class="descripcion-pagina">
+<button class="boton-descripcion">Leer detalles de agendar cita</button>
+<div class="descripcion-pagina" id="descripcion">
     <h1>Agenda tu cita</h1>
     <p>Déjanos tus datos para que podamos programar una consulta contigo y brindarte la mejor atención en dermatología.</p>
-</section>
+</div>	
 	    
  <main>    
         <section class="agendar-cita">
@@ -80,5 +81,16 @@
         <p>&copy; 2025 Dra. Jenny Sarmiento | Todos los derechos reservados</p>
       </div>
 </footer>
+
+<script>
+  const btn = document.querySelector('.boton-descripcion');
+  const desc = document.getElementById('descripcion');
+
+  btn.addEventListener('click', () => {
+    const isVisible = desc.style.display === 'block';
+    desc.style.display = isVisible ? 'none' : 'block';
+    btn.textContent = isVisible ? 'Leer detalles de agendar cita' : 'Ocultar detalles de agendar cita';
+  });
+</script>    
     </body>
 </html>
