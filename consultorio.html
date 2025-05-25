@@ -28,11 +28,12 @@
    <a href="https://www.tiktok.com/@drajennysarmiento" target="_blank" class="icono tiktok"><i class="fab fa-tiktok"></i></a>
       </div> 
 
-<section class="descripcion-pagina">
+<button class="boton-descripcion">Leer detalles del consultorio</button>
+<div class="descripcion-pagina" id="descripcion">
     <h1>Mi consultorio</h1>
     <p>Ubicación, instalaciones y entorno del espacio donde recibirás atención dermatológica personalizada.</p>
-</section>
-
+</div>
+	    
 <main>
 <div class="container">
     <div class="information">
@@ -79,5 +80,16 @@
         <p>&copy; 2025 Dra. Jenny Sarmiento | Todos los derechos reservados</p>
       </div>
 </footer>
+
+<script>
+  const btn = document.querySelector('.boton-descripcion');
+  const desc = document.getElementById('descripcion');
+
+  btn.addEventListener('click', () => {
+    const isVisible = desc.style.display === 'block';
+    desc.style.display = isVisible ? 'none' : 'block';
+    btn.textContent = isVisible ? 'Leer detalles del consultorio' : 'Ocultar detalles del consultorio';
+  });
+</script>    
     </body>
 </html>
