@@ -545,11 +545,11 @@ footer {
 .footer-info {
   display: flex;
   flex-direction: left;
-  align-items: center;  
+  align-items: left;  
   gap: 6px;
   font-size: 1.2rem;
   flex: 1;
-  line-height: 0.9;
+  line-height: 1.1;
 }
 
 .footer-info h3 {
