@@ -62,7 +62,7 @@ h3 { font-size: 1.75rem;}
     }
 
 /* Descripción de la pagina*/
-.boton-descripcion {
+.boton-descripcion .flecha {
   background-color: #ffffff;
   color: #237286;
   padding: 12px 24px;
@@ -77,7 +77,7 @@ h3 { font-size: 1.75rem;}
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.boton-descripcion:hover {
+.boton-descripcion:hover .flecha {
   background-color: #237286;
   color: #ffffff;
   transform: scale(1.05);
