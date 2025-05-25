@@ -64,24 +64,23 @@ h3 { font-size: 1.75rem;}
 /* Descripción de la pagina*/
 .boton-descripcion {
   background-color: #237286;
-  color: #fff;
-  padding: 8px 16px;
+  color: #ffffff;
+  padding: 12px 24px;
   border: none;
   cursor: pointer;
   font-family: 'Bahnschrift', sans-serif;
-  font-size: 1rem;
-  border-radius: 6px;
-  margin-top: 0;           
-  margin-bottom: 10px;    
-  display: block;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  margin: 20px auto;               
+  display: inline-block;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .boton-descripcion:hover {
-  background-color: #d4d4d4; 
+  background-color: #ffffff;
+  color: #237286;
+  transform: scale(1.05);
 }
 
 .descripcion-pagina {
