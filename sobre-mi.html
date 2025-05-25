@@ -28,7 +28,8 @@
    <a href="https://www.instagram.com/drajennysarmiento_" target="_blank" class="icono instagram"><i class="fab fa-instagram"></i></a>
    <a href="https://www.tiktok.com/@drajennysarmiento" target="_blank" class="icono tiktok"><i class="fab fa-tiktok"></i></a>
       </div>   
-
+	    
+<button class="boton-nav">Leer detalles de sobre mí</button>
 <section class="descripcion-pagina">
     <h1>Conoce a la Dra. Jenny Sarmiento</h1>
     <p>Aquí encontrarás más información sobre mi formación, experiencia profesional y mi pasión por la salud de tu piel.</p>
@@ -74,7 +75,7 @@
  <footer>
     <div class="footer-contenido">
     <div class="footer-logo">
-      <img src="logo.png" alt="Logo Dra. Jenny Sarmiento">
+      <img src="icono.png" alt="Logo Dra. Jenny Sarmiento">
     </div>
     <div class="footer-info">
       <h3>Contacto</h3>
@@ -86,5 +87,17 @@
         <p>&copy; 2025 Dra. Jenny Sarmiento | Todos los derechos reservados</p>
       </div>
 </footer>
+
+<script>
+  const btn = document.querySelector('.boton-nav');
+  const desc = document.getElementById('descripcion');
+
+  btn.addEventListener('click', () => {
+    const isVisible = desc.style.display === 'block';
+    desc.style.display = isVisible ? 'none' : 'block';
+    btn.textContent = isVisible ? 'Leer detalles de sobre mí' : 'Ocultar detalles de sobre mí';
+  });
+</script>
+	    
     </body>
 </html>
