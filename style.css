@@ -63,14 +63,14 @@ h3 { font-size: 1.75rem;}
 
 /* Descripción de la pagina*/
 .boton-descripcion {
-  background-color: #237286;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #237286;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
   font-family: 'Bahnschrift', sans-serif;
   font-size: 1.1rem;
-  border-radius: 30px;
+  border-radius: 15px;
   margin: 20px auto;               
   display: inline-block;
   text-align: center;
@@ -78,15 +78,15 @@ h3 { font-size: 1.75rem;}
 }
 
 .boton-descripcion:hover {
-  background-color: #ffffff;
-  color: #237286;
+  background-color: #237286;
+  color: #ffffff;
   transform: scale(1.05);
 }
 
 .descripcion-pagina {
   display: none;
-  background-color: #237286;
-  color: #ffffff;
+  background-color: #d4d4d4;
+  color: #237286;
   padding: 40px 20px;
   text-align: center;
   font-family: 'Bahnschrift', sans-serif;
@@ -544,12 +544,12 @@ footer {
 .footer-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
-  align-items: left;  
+  justify-content: left;  
+  align-items: center;  
   gap: 6px;
   font-size: 1.2rem;
   flex: 1;
-  line-height: 0.8;
+  line-height: 0.6;
 }
 
 .footer-info h3 {
