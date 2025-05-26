@@ -411,8 +411,8 @@ main {
     max-width: 700px;
     margin: 20px auto;
     line-height: 1.8;
-    font-size: 1.1em;
-    color: #000000;
+    font-size: 1.4em;
+    color: #ffffff;
 }
 
 .frase {
@@ -456,13 +456,13 @@ main {
     border: none;
     border-radius: 8px 8px 0 0;
     border-bottom: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     font-size: 1.4rem;
     font-weight: bold;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     position: relative;
 }
 
@@ -492,7 +492,7 @@ main {
     animation: fadeIn 0.3s ease-in-out;
     margin-bottom: 15px; 
     text-align: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .panel ul {
@@ -518,6 +518,8 @@ main {
     color: #237286;
     font-weight: bold;
     font-size: 1.1em;
+     align-items: center;
+    justify-content: left;
 }
 
 /* Sección Consultorio */
