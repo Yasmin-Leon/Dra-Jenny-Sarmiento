@@ -70,8 +70,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 120px; 
+  margin-top: 140px; 
   z-index: 10;
+  text-align: center;
 }
 
 /* Descripción de la pagina*/
@@ -99,6 +100,16 @@ main {
   background-color: #237286;
   color: #ffffff;
   transform: scale(1.05);
+}
+
+#descripcion {
+  display: none; /* Oculta al inicio */
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+#descripcion.mostrar {
+  display: block;
+  opacity: 1;
 }
 
 .descripcion-pagina {
