@@ -475,6 +475,8 @@ main {
     float: right;
     font-size: 1rem;
     transition: transform 0.3s ease;
+    align-items: center;
+    justify-content: center;
 }
 
 .acordeon.active::after {
@@ -490,6 +492,7 @@ main {
     animation: fadeIn 0.3s ease-in-out;
     margin-bottom: 15px; 
     text-align: center;
+    justify-content: center;
 }
 
 .panel ul {
@@ -504,6 +507,8 @@ main {
     margin-bottom: 12px;
     color: #000000;
     font-size: 1.05em;
+    align-items: center;
+    justify-content: center;
 }
 
 .panel ul li::before {
