@@ -86,6 +86,9 @@ h3 { font-size: 1.75rem;}
   text-align: center;
   gap: 8px;
   transition: transform 0.2s ease;
+  margin-top: 120px;
+  position: relative;
+  z-index: 2;
 }
 
 .boton-descripcion:hover {
