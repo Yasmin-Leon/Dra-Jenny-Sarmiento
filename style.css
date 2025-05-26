@@ -500,9 +500,10 @@ main {
 
 /* Sección Consultorio */
 .consultorio {
-    background-color: #ffffff;
+    background-color: #237286;
     padding: 60px 20px;
     font-family: 'Bahnschrift', sans-serif;
+    color: #ffffff;
 }
 .container {
     display: flex;
@@ -510,15 +511,15 @@ main {
     justify-content: center;
     gap: 50px;
     padding: 70px 30px;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .information, .mapa {
     flex: 1 1 400px;
     max-width: 600px;
     background-color: #ffffff;
-    padding: 40px 30px;
+    padding: 20px 10px;
     border-radius: 15px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     text-align: left;
