@@ -38,6 +38,10 @@ h3 { font-size: 1.75rem;}
     box-sizing: border-box;
 }
 
+main {
+  margin-top: 80px;
+}
+
 .boton-nav {
     text-decoration: none;
     color:  #ffffff;
