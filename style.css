@@ -63,8 +63,8 @@ h3 { font-size: 1.75rem;}
 
 .contenedor-boton-superior {
   position: relative;
-  top: -60px; 
-  margin-bottom: -40px;
+  top: 80px; 
+  width: 100%;
   display: flex;
   justify-content: center;
   z-index: 10;
