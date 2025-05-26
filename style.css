@@ -405,7 +405,7 @@ main {
   transform: scale(1.05);
 }
 
-.perfil p {
+.perfil p  {
     max-width: 700px;
     margin: 20px auto;
     line-height: 1.8;
@@ -414,7 +414,7 @@ main {
 }
 
 .frase {
-    background: linear-gradient(135deg, #ffffff, #d4d4d4);
+    background: linear-gradient(135deg, #d4d4d4);
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
@@ -427,29 +427,37 @@ main {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+.formacion {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;             
+  justify-content: space-between; 
+  gap: 20px;                 
+}
+
 .formacion .especialidades {
-    max-width: 800px;
-    margin: 30px auto;
-    font-family: 'Bahnschrift', sans-serif;
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    flex-wrap: nowrap; 
+    max-width: 48%; 
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.formacion, .formacion .especialidades {
+  border: 1px solid red;
 }
 
 /* Botón acordeón */
 .acordeon, .panel {
-    width: 48%;        
+    width: 100%;        
     box-sizing: border-box;
 }
 
 .acordeon {
-    color: #000000;
+    color: #ffffff;
     cursor: pointer;
     padding: 15px 20px;
     width: 300px;
     border: none;
-    border-bottom: 1px solid #d4d4d4;
+    border-bottom: 1px solid #237286;
     font-size: 1.4rem;
     font-weight: bold;
     transition: background-color 0.3s ease;
