@@ -432,12 +432,12 @@ main {
   margin: 30px auto;
   display: flex;             
   justify-content: space-between; 
-  gap: 20px;                 
+  gap: 20px; 
+  box-sizing: border-box; 
 }
 
 .formacion .especialidades {
     max-width: 48%; 
-    flex: 1;
     box-sizing: border-box;
 }
 
