@@ -93,6 +93,17 @@
 </footer>
 
 <script>
+  const btn = document.querySelector('.boton-descripcion');
+  const desc = document.getElementById('descripcion');
+
+  btn.addEventListener('click', () => {
+    desc.classList.toggle('mostrar');
+    const visible = desc.classList.contains('mostrar');
+    btn.textContent = visible ? 'Ocultar información' : 'Ver más información';
+  });
+</script>
+	    
+<script>
   document.querySelectorAll('.acordeon').forEach(button => {
     button.addEventListener('click', () => {
       button.classList.toggle('active');
@@ -106,15 +117,5 @@
   });
 </script>	    
 	    
-<script>
-  const btn = document.querySelector('.boton-descripcion');
-  const desc = document.getElementById('descripcion');
-
-  btn.addEventListener('click', () => {
-    const isVisible = desc.style.display === 'block';
-    desc.style.display = isVisible ? 'none' : 'block';
-    btn.textContent = isVisible ? 'Ver más información' : 'Ocultar información';
-  });
-</script>    
     </body>
 </html>
