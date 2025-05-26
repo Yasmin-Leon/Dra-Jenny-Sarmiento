@@ -93,6 +93,20 @@
 </footer>
 
 <script>
+  document.querySelectorAll('.acordeon').forEach(button => {
+    button.addEventListener('click', () => {
+      button.classList.toggle('active');
+      const panel = button.nextElementSibling;
+      if (panel.style.display === 'block') {
+        panel.style.display = 'none';
+      } else {
+        panel.style.display = 'block';
+      }
+    });
+  });
+</script>	    
+	    
+<script>
   const btn = document.querySelector('.boton-descripcion');
   const desc = document.getElementById('descripcion');
 
