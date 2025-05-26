@@ -78,7 +78,8 @@ main {
 .boton-descripcion {         
   background-color: #ffffff;
   color: #237286;
-  padding: 12px 24px;
+  top: 80px;
+  padding: 10px 15px;
   border: none;
   cursor: pointer;
   font-family: 'Bahnschrift', sans-serif;
@@ -91,7 +92,7 @@ main {
   gap: 8px;
   transition: transform 0.2s ease;
   position: relative;
-  z-index: 2;
+  z-index: 1000;
 }
 
 .boton-descripcion:hover {
