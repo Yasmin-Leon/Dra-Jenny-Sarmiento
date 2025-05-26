@@ -393,8 +393,8 @@ main {
 }
 
 .foto-perfil {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid #d4d4d4;
@@ -402,7 +402,7 @@ main {
     transition: transform 0.3s ease;
 }
 .foto-perfil:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .perfil p {
@@ -410,7 +410,7 @@ main {
     margin: 20px auto;
     line-height: 1.8;
     font-size: 1.1em;
-    color: #000000;
+    color: #ffffff;
 }
 
 .frase {
@@ -433,32 +433,30 @@ main {
     font-family: 'Bahnschrift', sans-serif;
     display: flex;
     gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap; 
+    justify-content: space-between;
+    flex-wrap: nowrap; 
 }
 
 /* Botón acordeón */
+.acordeon, .panel {
+    width: 48%;        
+    box-sizing: border-box;
+}
+
 .acordeon {
-    background-color: transparent;
     color: #000000;
     cursor: pointer;
     padding: 15px 20px;
     width: 300px;
-    text-align: left;
     border: none;
     border-bottom: 1px solid #d4d4d4;
     font-size: 1.4rem;
     font-weight: bold;
     transition: background-color 0.3s ease;
-     box-sizing: border-box;
 }
 
 .acordeon:hover {
-    background-color: #237286;
-}
-
-.acordeon.active {
-  content: '−'; 
+    background-color: #ffffff;
 }
 
 .panel {
@@ -469,8 +467,6 @@ main {
     border-right: 3px solid #237286;
     border-bottom: 1px solid #d4d4d4;
     animation: fadeIn 0.3s ease-in-out;
-    width: 300px;
-    box-sizing: border-box;
     margin-bottom: 20px; 
 }
 
