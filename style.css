@@ -389,7 +389,9 @@ main {
 .perfil {
     padding: 40px 20px;
     text-align: center;
+    flex-direction: column;
     font-family: 'Bahnschrift', sans-serif;
+    color: #ffffff;
 }
 
 .foto-perfil {
@@ -416,46 +418,41 @@ main {
 .frase {
     background: linear-gradient(135deg, #d4d4d4);
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     font-style: italic;
     color: #237286;
     border-left: 5px solid #237286;
     border-right: 5px solid #237286;
-    padding: 40px 20px;
+    padding: 30px 20px;
     margin-top: 30px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .formacion {
-  max-width: 800px;
-  margin: 30px auto;
   display: flex;             
-  justify-content: space-between; 
-  gap: 20px; 
-  box-sizing: border-box; 
+  justify-content: center; 
+  gap: 40px;
+   padding: 40px 20px;
+   flex-wrap: wrap;  
 }
 
 .formacion .especialidades {
-    max-width: 48%; 
-    box-sizing: border-box;
+    flex: 1 1 45%;
+    min-width: 280px;
 }
 
 .formacion, .formacion .especialidades {
-  border: 1px solid red;
+     border: none;
 }
 
 /* Botón acordeón */
-.acordeon, .panel {
-    width: 100%;        
-    box-sizing: border-box;
-}
-
 .acordeon {
     color: #ffffff;
     cursor: pointer;
+    background-color: #237286;
     padding: 15px 20px;
-    width: 300px;
+    width: 100%;
     border: none;
     border-bottom: 1px solid #237286;
     font-size: 1.4rem;
@@ -464,18 +461,18 @@ main {
 }
 
 .acordeon:hover {
-    background-color: #ffffff;
+    background-color: #237286;
+    color: #ffffff;
 }
 
 .panel {
     display: none;
     padding: 15px 20px;
     background-color: #ffffff;
-    border-left: 3px solid #237286;
-    border-right: 3px solid #237286;
-    border-bottom: 1px solid #d4d4d4;
+    border: 3px solid #237286;
+    border-radius: 0 0 5px 5px;
     animation: fadeIn 0.3s ease-in-out;
-    margin-bottom: 20px; 
+    margin-bottom: 15px; 
 }
 
 .panel ul {
