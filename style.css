@@ -66,11 +66,11 @@ main {
     }
 
 .contenedor-boton-superior {
-  position: relative;
-  top: 80px; 
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 120px; 
   z-index: 10;
 }
 
@@ -102,7 +102,8 @@ main {
 }
 
 .descripcion-pagina {
-  display: none;
+  display: block;
+  margin-top: 20px;
   background-color: #d4d4d4;
   color: #237286;
   padding: 40px 20px;
