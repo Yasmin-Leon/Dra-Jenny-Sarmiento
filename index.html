@@ -29,7 +29,7 @@
    <a href="https://www.tiktok.com/@drajennysarmiento" target="_blank" class="icono tiktok"><i class="fab fa-tiktok"></i></a>
       </div>   
 	    
-<button class="boton-descripcion" onclick="mostrarDescripcion()">
+<button class="boton-descripcion" onclick="mostrarDescripcion(this)">
   Ver más información <span class="flecha">↓</span>
 </button>
 <div class="descripcion-pagina" id="descripcion">
@@ -169,6 +169,14 @@
     desc.style.display = isVisible ? 'none' : 'block';
     btn.textContent = isVisible ? 'Ver más información' : 'Ocultar información';
   });
+</script>
+	    
+<script>
+function mostrarDescripcion(boton) {
+  const descripcion = document.getElementById('descripcion');
+  descripcion.style.display = descripcion.style.display === 'block' ? 'none' : 'block';
+  boton.classList.toggle('abierto');
+}
 </script>
 	    
 <script>
