@@ -79,7 +79,7 @@ main {
 .boton-descripcion {         
   background-color: #ffffff;
   color: #237286;
-  top: 80px;
+  top: 90px;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
@@ -103,7 +103,7 @@ main {
 }
 
 #descripcion {
-  display: none; /* Oculta al inicio */
+  display: none;
   opacity: 0;
   transition: opacity 0.4s ease;
 }
