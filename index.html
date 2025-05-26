@@ -163,20 +163,18 @@
 <script>
   const btn = document.querySelector('.boton-descripcion');
   const desc = document.getElementById('descripcion');
+  const flecha = btn.querySelector('.flecha');
 
   btn.addEventListener('click', () => {
-    const isVisible = desc.style.display === 'block';
-    desc.style.display = isVisible ? 'none' : 'block';
-    btn.textContent = isVisible ? 'Ver más información' : 'Ocultar información';
+    desc.classList.toggle('mostrar');
+
+    // Cambiar texto y flecha
+    if (desc.classList.contains('mostrar')) {
+      btn.innerHTML = 'Ver menos información <span class="flecha">↑</span>';
+    } else {
+      btn.innerHTML = 'Ver más información <span class="flecha">↓</span>';
+    }
   });
-</script>
-	    
-<script>
-function mostrarDescripcion(boton) {
-  const descripcion = document.getElementById('descripcion');
-  descripcion.style.display = descripcion.style.display === 'block' ? 'none' : 'block';
-  boton.classList.toggle('abierto');
-}
 </script>
 	    
 <script>
