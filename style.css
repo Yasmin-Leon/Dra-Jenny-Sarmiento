@@ -226,10 +226,11 @@ h3 { font-size: 1.75rem;}
     height: 100vh;
     overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     color: #ffffff;
     margin-top: -160px;
+    padding-top: 100px;
 }
 
 .fondo-video {
