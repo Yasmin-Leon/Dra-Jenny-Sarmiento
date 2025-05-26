@@ -461,10 +461,7 @@ main {
     font-weight: bold;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     align-items: center;
-    position: relative;
     text-align: left; 
-    display: flex;
-    flex-direction: center;
     justify-content: center;
 }
 
