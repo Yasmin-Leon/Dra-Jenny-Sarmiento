@@ -460,10 +460,12 @@ main {
     font-size: 1.4rem;
     font-weight: bold;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
     align-items: center;
-    justify-content: left;
     position: relative;
+    text-align: left; 
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
 }
 
 .acordeon:hover {
@@ -518,8 +520,8 @@ main {
     color: #237286;
     font-weight: bold;
     font-size: 1.1em;
-     align-items: center;
-    justify-content: left;
+    align-items: center;
+    justify-content: left; 
 }
 
 /* Sección Consultorio */
