@@ -9,7 +9,7 @@
 body {
     font-family: 'Bahnschrift', sans-serif;
     margin: 0;
-    padding-top: 160px;
+    padding-top: 0;
     background-color: #237286;
     color: #000000;
     scroll-behavior: smooth;
@@ -190,8 +190,8 @@ h3 { font-size: 1.75rem;}
 
 /* Sección Inicio */
 .inicio {
-    background-color: #237286;
-    padding: 100px 0;
+    background-color:  transparent;
+    padding: 0;
 }
 
 .container-superpuesto {
@@ -229,6 +229,7 @@ h3 { font-size: 1.75rem;}
     align-items: center;
     justify-content: center;
     color: #ffffff;
+    margin-top: -160px;
 }
 
 .fondo-video {
