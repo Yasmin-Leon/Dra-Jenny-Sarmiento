@@ -454,15 +454,27 @@ main {
     padding: 15px 20px;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #237286;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 1.4rem;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .acordeon:hover {
     background-color: #237286;
     color: #ffffff;
+}
+.acordeon::after {
+    content: '▼';
+    float: right;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.acordeon.active::after {
+    transform: rotate(-180deg);
 }
 
 .panel {
