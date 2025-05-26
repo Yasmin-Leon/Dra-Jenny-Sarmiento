@@ -463,6 +463,8 @@ main {
     align-items: center;
     text-align: left; 
     justify-content: center;
+    display: flex;
+    flex-direction: center;
 }
 
 .acordeon:hover {
@@ -497,8 +499,7 @@ main {
 .panel ul {
     list-style: none;
     padding-left: 0;
-    max-width: 800px;
-    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .panel ul li {
@@ -509,7 +510,7 @@ main {
     font-size: 1.1em;
     display: flex;
     text-align: left;
-    align-items: flex-start;
+    justify-content: center;
 }
 
 .panel ul li::before {
