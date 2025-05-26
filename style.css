@@ -412,7 +412,7 @@ main {
     margin: 20px auto;
     line-height: 1.8;
     font-size: 1.1em;
-    color: #ffffff;
+    color: #000000;
 }
 
 .frase {
@@ -429,7 +429,7 @@ main {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.formacion {
+.formacion .especialidades {
   display: flex;             
   justify-content: center; 
   gap: 40px;
@@ -442,7 +442,7 @@ main {
     min-width: 280px;
 }
 
-.formacion, .formacion .especialidades {
+.formacion .especialidades {
      border: none;
 }
 
