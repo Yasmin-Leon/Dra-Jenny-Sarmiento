@@ -378,36 +378,6 @@ h3 { font-size: 1.75rem;}
     color: #000000;
 }
 
-.formacion, .especialidades, .frase {
-    background-color: #d4d4d4;
-    padding: 30px 20px;
-    margin: 20px auto;
-    max-width: 900px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-
-ul {
-  padding-left: 0;
-}
-
-ul li {
-    list-style: none;
-    padding-left: 25px;
-    text-align: left;
-    max-width: 700px;
-    margin: 10px auto;
-    position: relative;
-    font-size: 1.05em;
-}
-
-.formacion ul li::before, .especialidades ul li::before {
-    content: '✔';
-    color: #237286;
-    left: 0;
-    position: absolute;
-    font-weight: bold;
-}
 .frase {
     background: linear-gradient(135deg, #ffffff, #d4d4d4);
     text-align: center;
@@ -421,6 +391,72 @@ ul li {
     margin-top: 30px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
+
+.formacion .especialidades {
+    max-width: 800px;
+    margin: 30px auto;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+/* Botón acordeón */
+.acordeon {
+    background-color: transparent;
+    color: #164d59;
+    cursor: pointer;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #cce8ed;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.acordeon:hover {
+    color: #237286;
+}
+
+.acordeon.active {
+    color: #237286;
+    border-bottom: 2px solid #237286;
+}
+
+.panel {
+    padding: 0 20px;
+    display: none;
+    overflow: hidden;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.panel ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.panel ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    color: #333;
+    font-size: 1.05em;
+}
+
+.panel ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #237286;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 /* Sección Consultorio */
 .consultorio {
     background-color: #ffffff;
