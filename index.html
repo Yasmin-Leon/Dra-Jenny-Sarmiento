@@ -29,9 +29,7 @@
    <a href="https://www.tiktok.com/@drajennysarmiento" target="_blank" class="icono tiktok"><i class="fab fa-tiktok"></i></a>
       </div>   
 	    
-<button class="boton-descripcion" onclick="mostrarDescripcion(this)">
-  Ver más información <span class="flecha">↓</span>
-</button>
+<button class="boton-descripcion">Ver más información</button>
 <div class="descripcion-pagina" id="descripcion">
   <h1>Bienvenido al sitio oficial de la Dra. Jenny Sarmiento</h1>
   <p>Dermatóloga especializada en salud y estética de la piel. Explora tratamientos innovadores, agenda tu cita y aprende a cuidar tu piel con confianza.</p>
@@ -163,19 +161,13 @@
 <script>
   const btn = document.querySelector('.boton-descripcion');
   const desc = document.getElementById('descripcion');
-  const flecha = btn.querySelector('.flecha');
 
   btn.addEventListener('click', () => {
-    desc.classList.toggle('mostrar');
-
-    // Cambiar texto y flecha
-    if (desc.classList.contains('mostrar')) {
-      btn.innerHTML = 'Ver menos información <span class="flecha">↑</span>';
-    } else {
-      btn.innerHTML = 'Ver más información <span class="flecha">↓</span>';
-    }
+    const isVisible = desc.style.display === 'block';
+    desc.style.display = isVisible ? 'none' : 'block';
+    btn.textContent = isVisible ? 'Ver más información' : 'Ocultar información';
   });
-</script>
+</script>   
 	    
 <script>
     document.querySelectorAll(".flecha").forEach(boton => {
