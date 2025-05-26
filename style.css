@@ -63,11 +63,11 @@ h3 { font-size: 1.75rem;}
 
 /* Descripción de la pagina*/
 .boton-descripcion {
-  position: fixed;                   
-  bottom: 100px;                     
+  position: absolute;                   
+  bottom: 80px;                     
   left: 50%;                         
   transform: translateX(-50%);       
-  z-index: 1000;          
+  z-index: 10;          
   background-color: #ffffff;
   color: #237286;
   padding: 12px 24px;
@@ -80,15 +80,17 @@ h3 { font-size: 1.75rem;}
   display: inline-flex;
   text-align: center;
   gap: 8px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .boton-descripcion:hover {
   background-color: #237286;
   color: #ffffff;
-  transform: scale(1.05);
+  transform:  translateX(-50%) scale(1.05);
 }
-
+.superponer {
+  position: relative;
+}
 .descripcion-pagina {
   display: none;
   background-color: #d4d4d4;
