@@ -62,18 +62,19 @@ h3 { font-size: 1.75rem;}
     }
 
 /* Descripción de la pagina*/
-.boton-descripcion .flecha {
+.boton-descripcion {
   background-color: #ffffff;
   color: #237286;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
   font-family: 'Bahnschrift', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   border-radius: 15px;
   margin: 20px auto;               
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
+  gap: 8px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -83,6 +84,14 @@ h3 { font-size: 1.75rem;}
   transform: scale(1.05);
 }
 
+.flecha {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.boton-descripcion.abierto .flecha {
+  transform: rotate(180deg);
+}
 .descripcion-pagina {
   display: none;
   background-color: #d4d4d4;
