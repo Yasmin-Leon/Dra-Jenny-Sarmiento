@@ -61,6 +61,15 @@ h3 { font-size: 1.75rem;}
     transform: scale(1.05);
     }
 
+.contenedor-boton-superior {
+  position: relative;
+  top: -60px; 
+  margin-bottom: -40px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
 /* Descripción de la pagina*/
 .boton-descripcion {         
   background-color: #ffffff;
