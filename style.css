@@ -338,7 +338,7 @@ main {
     z-index: 10;
     padding: 10px;
     border-radius: 30%;
-    transition: background 0.3s;
+    transition: background- color 0.3s;
 }
 
 .flecha:hover {
@@ -460,11 +460,12 @@ main {
     font-size: 1.4rem;
     font-weight: bold;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    align-items: center;
-    text-align: left; 
-    justify-content: center;
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
 }
 
 .acordeon:hover {
@@ -473,11 +474,8 @@ main {
 }
 .acordeon::after {
     content: '▼';
-    float: right;
     font-size: 1rem;
     transition: transform 0.3s ease;
-    align-items: center;
-    justify-content: center;
 }
 
 .acordeon.active::after {
@@ -491,15 +489,19 @@ main {
     border: 3px solid #237286;
     border-radius: 0 0 5px 5px;
     animation: fadeIn 0.3s ease-in-out;
-    margin-bottom: 15px; 
-    text-align: center;
-    justify-content: left;
+    margin: 15px auto; 
+    text-align: left;
+    width: 90%;
+    max-width: 600px;
+  
 }
 
 .panel ul {
     list-style: none;
     padding-left: 0;
     margin-top: 10px;
+    width: 100%; 
+    max-width: 600px;
 }
 
 .panel ul li {
@@ -510,7 +512,7 @@ main {
     font-size: 1.1em;
     display: flex;
     text-align: left;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .panel ul li::before {
@@ -518,6 +520,8 @@ main {
     color: #237286;
     font-weight: bold;
     font-size: 1.2em;
+    position: absolute;
+    left: 0;
 }
 
 /* Sección Consultorio */
@@ -531,25 +535,68 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    padding: 70px 30px;
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .information {
     width: 100%;
     max-width: 800px;
-    background-color: transparent;
-    padding: 0;
     text-align: left;
 }
+
+.information h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.information ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.information li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.information p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #ffffff;
+}
+
 .mapa {
     width: 100%;
     max-width: 800px;
     background-color: #ffffff;
     color: #000000;
-    padding: 0;
-    text-align: left;
-    
+    padding: 30px 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.mapa:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+.mapa h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #237286;
+}
+
+.mapa p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .mapa iframe {
@@ -560,12 +607,37 @@ main {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.horario-consultorio {
+  background-color: #ffffff; 
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  color: #000000; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 600px;
+  text-align: left;
+
+}
+
+.horario-consultorio h3 {
+  margin-top: 0;
+  color: #237286; 
+}
+
+.horario-consultorio ul,
+.horario-consultorio li {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
 /* Sección Tratamientos */
 .tratamiento {
     background-color: #ffffff;
     padding: 30px 0;
     text-align: center;
 
+  }
 
 /* Sección Agendar Cita */
 .agendar-cita {
@@ -654,7 +726,7 @@ footer {
   gap: 6px;
   font-size: 1.2rem;
   flex: 1;
-  line-height: 0.6;
+  line-height: 0.4;
 }
 
 .footer-info h3 {
@@ -756,8 +828,9 @@ footer {
     left: 10px;
   }
 
-  .flecha.derecha {
+  .flecha.izquierda {
     right: 10px;
   }
 }
+
 
